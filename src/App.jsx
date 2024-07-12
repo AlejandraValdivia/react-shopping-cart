@@ -1,10 +1,15 @@
-import './App.css';
+import Shop from "./components/Shop/Shop";
+import Footer from "./components/Footer/Footer";
 
-const App = () => {
+import "./App.css";
 
+function App() {
   return (
-    <h1>Hello world!</h1>
+    <>
+      <Shop className="shop-container" />
+      <Footer />
+    </>
   );
 }
 
-export default App
+export default App;
